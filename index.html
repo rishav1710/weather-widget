@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER WIDGET</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <navbar>
+      <h1>WEATHER REPORT WIDGET</h1>
+    </navbar>
+    <div class="in">
+      <input
+        type="search"
+        id="input-search"
+        placeholder="Type Your City..."
+        required
+      />&nbsp;&nbsp;
+      <input type="submit" class="sub" value="SEARCH" />
+    </div>
+    <section>
+      <div id="location">
+        <p>------</p>
+      </div>
+      <div id="temp">
+        <img id="temp-icon" src="cloud.png" />
+        <p><span id="temp-value">-------</span><span id="temp-unit">&#176c</span></p>
+      </div>
+      <div id="climate">
+        <p>-------</p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

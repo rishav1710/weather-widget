@@ -1,0 +1,64 @@
+body {
+  background-image: url("space1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+}
+navbar {
+  text-align: center;
+}
+section {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+  display: block;
+  box-shadow: 10px 10px 20px 10px rgba(255, 255, 255, 0.5);
+}
+h1 {
+  color: white;
+}
+.in {
+  padding: 20px;
+  text-align: center;
+}
+input {
+  padding: 12px 20px;
+  font-size: large;
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+}
+#location {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+#temp,
+#temp-value {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+#temp-unit {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+#climate {
+  text-align: center;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+#temp-icon {
+  text-align: center;
+  padding: 10px;
+  width: 40%;
+  height: auto;
+}
