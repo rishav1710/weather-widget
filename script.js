@@ -15,7 +15,7 @@ searchButton.addEventListener("click", (e) => {
 const getWeather = async (city) => {
   try {
     const apiKey = "2df120a26355b05dc512460126e94c62";
-    const proxy = "http://cors-anywhere.herokuapp.com/";
+    const proxy = "https://";
     await fetch(
       `${proxy}api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
     )
